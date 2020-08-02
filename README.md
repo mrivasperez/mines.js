@@ -10,4 +10,4 @@ You are presented with a grid of invisible squares. The squares are revealed as 
 
 Clicking a square which doesn't have a bomb reveals the number of neighbouring squares containing bombs. Use this information plus some guess work to avoid the bombs.
 
-To open a square, point at the square and click on it. To mark a square you think is a bomb, point and right-click (or hover with the mouse and press Space).
+To open a square, point at the square and click on it. To mark a square you think is a bomb, point and right-click.
