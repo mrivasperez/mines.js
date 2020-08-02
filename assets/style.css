@@ -25,7 +25,8 @@ span {
   font-weight: bold;
   color: white;
   padding: 25px;
-  background-color: #f5253c;
+  background-color: #130f40;
+  background-image: linear-gradient(315deg, #291a42 0%, #000000 74%);
   border-radius: 10px;
   box-shadow: 20px 20px 60px #af96d9, -20px -20px 60px #edcaff;
 }
@@ -49,18 +50,23 @@ span {
   opacity: 0;
 }
 
+.square.flag {
+  opacity: 100;
+  background-color: rgba(206, 176, 255, 0.1);
+}
+
 .square.checked {
   opacity: 100;
   border-radius: 0px;
-  background-color: rgba(206, 176, 255, 0.25);
+  background-color: rgba(206, 176, 255, 0.2);
 }
 
 .square.checked:hover {
-  background-color: rgba(206, 176, 255, 0.33);
+  background-color: rgba(206, 176, 255, 0.3);
 }
 
 .square:hover {
-  background-color: rgba(206, 176, 255, 0.25);
+  background-color: rgba(206, 176, 255, 0.2);
   opacity: 100;
 }
 

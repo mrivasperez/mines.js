@@ -188,6 +188,9 @@ document.addEventListener("DOMContentLoaded", () => {
     result.innerHTML = "BOOM! Game Over! Refresh the page to try again.";
     isGameOver = true;
     result.classList.remove("hidden");
+    setTimeout(() => {
+      grid.style.display = "none";
+    }, 1500);
 
     //show ALL the bombs
     squares.forEach((square) => {
@@ -214,6 +217,10 @@ document.addEventListener("DOMContentLoaded", () => {
       if (matches === bombAmount) {
         result.innerHTML = "YOU WIN!";
         isGameOver = true;
+        result.classList.remove("hidden");
+        setTimeout(() => {
+          grid.style.display = "none";
+        }, 1500);
       }
     }
   }
