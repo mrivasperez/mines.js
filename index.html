@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>mines.js</title>
     <link rel="stylesheet" href="assets/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="assets/app.js"></script>
   </head>
   <body>
-    <div class="grid"></div>
-    <script src="assets/app.js" charset="utf-8"></script>
+    <div class="container">
+      <h1>mines.js</h1>
+      <div class="mb">Flags left: <span id="flags-left"></span></div>
+      <div class="hidden" id="result"></div>
+      <div class="grid" id="grid"></div>
+    </div>
   </body>
 </html>
