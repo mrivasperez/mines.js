@@ -11,12 +11,20 @@ h1 {
   margin-bottom: 0;
 }
 
+h2 {
+  font-size: 50px;
+}
+
 span {
   background-color: #647dee00;
 }
 
 .mb {
   margin-bottom: 100px;
+}
+
+.mt {
+  margin-top: 100px;
 }
 
 #result {
@@ -39,6 +47,7 @@ span {
   width: 500px;
   align-content: center;
   margin: 0 auto;
+  height: 100vh;
 }
 
 .square {
