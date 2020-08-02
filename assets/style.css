@@ -49,10 +49,14 @@ span {
   opacity: 0;
 }
 
-.square.checked,
-.square.check:hover {
+.square.checked {
   opacity: 100;
   border-radius: 0px;
+  background-color: rgba(206, 176, 255, 0.25);
+}
+
+.square.checked:hover {
+  background-color: rgba(206, 176, 255, 0.33);
 }
 
 .square:hover {
