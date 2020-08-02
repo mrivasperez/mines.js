@@ -42,6 +42,7 @@ span {
 
 .square {
   font-size: 25px;
+  color: white;
   text-align: center;
   transition: 0.09s;
   opacity: 0;
